@@ -1,9 +1,10 @@
 
 import './App.css';
 import React from 'react';
-import Header from '../components/header';
-import Card from '../components/card';
-import BreakingBadData from '../../breakingbad.json';
+import Card from '../../components/card';
+import Header from '../../components/header';
+import BreakingBadData from './breakingbad.json';
+
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <Header />
       {/* <Card title='card title 1' content='card content 1 best mehdi' />
       <Card title='card title 2' content='card content 2 best mehdi' /> */}
-      <div className='row'>
+      <div className='row container'>
         {cards}
 
       </div>
