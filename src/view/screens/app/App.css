@@ -8,5 +8,9 @@ header {
 }
 
 .card {
+  padding: 0;
   margin: 10px;
+
+
+
 }
