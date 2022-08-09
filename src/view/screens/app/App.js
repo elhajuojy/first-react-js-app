@@ -21,11 +21,6 @@ function App() {
         {cards}
 
       </div>
-
-
-
-
-
     </div>
   );
 }
